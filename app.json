@@ -1,3 +1,4 @@
+{
     "name": "Dragon Music",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://telegra.ph/file/1c167f98ec87794b4af2c.jpg",
