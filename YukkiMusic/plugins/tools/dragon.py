@@ -64,12 +64,12 @@ async def khalid(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""نـيـمـك💕 ⇐{message.from_user.mention}\n\nيـوزرك💕 ⇐ @{message.from_user.username}\n\nالايـدي بـتـاعـك💕 ⇐ {message.from_user.id}\n\nايـدي الـجـروب💕 ⇐ {message.chat.id}""", 
+                    await message.reply_photo(photo.file_id,       caption=f"""نـيـمـك{message.from_user.mention}\n\nيـوزرك @{message.from_user.username}\n\nالايـدي {message.from_user.id}\n\nايـدي الـجـروب{message.chat.id}""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "╞. 𝐒𝐨𝐮𝐫𝐜𝐞 .╡", url=f"https://t.me/yy8gg"),
+                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
                 ],
             ]
         ),
@@ -84,12 +84,12 @@ async def khalid(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""نـيـمـك💕 ⇐{message.from_user.mention}\n\nيـوزرك💕 ⇐ @{message.from_user.username}\n\nالايـدي بـتـاعـك💕 ⇐ {message.from_user.id}\n\nايـدي الـجـروب💕 ⇐ {message.chat.id}""", 
+                    await message.reply_photo(photo.file_id,       caption=f"""نـيـمـك{message.from_user.mention}\n\nيـوزرك@{message.from_user.username}\n\nالايدي {message.from_user.id}\n\nايـدي الـجـروب{message.chat.id}""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "╞. 𝐒𝐨𝐮𝐫𝐜𝐞 .╡", url=f"https://t.me/yy8gg"),
+                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
                 ],
             ]
         ),
@@ -114,12 +114,12 @@ async def khalid(client: Client, message: Message):
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
                     await message.reply_text( 
-                    f"""💘 ¦ انت روحي » """,
+                    f"""انت روحي""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "╞. 𝐒𝐨𝐮𝐫𝐜𝐞 .╡", url=f"https://t.me/yy8gg"),
+                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
                 ],
             ]
         ),
@@ -132,15 +132,15 @@ async def khalid(client: Client, message: Message):
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/1c167f98ec87794b4af2c.jpg",
-        caption=f"""𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙩𝙝𝙚 𝘿𝙧𝙖𝙜𝙤𝙣 𝙎𝙤𝙪𝙧𝙘𝙚""",
+        photo=f"https://telegra.ph/file/af9cd8ee877f49866a66d.jpg",
+        caption=f"""𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒕𝒉𝒆 𝑫𝒓𝒂𝒈𝒐𝒏 𝑺𝒐𝒖𝒓𝒄𝒆""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton("𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍", url=f"https://t.me/ku_kx"),
+                InlineKeyboardButton("𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓", url=f"https://t.me/ku_kx"),
                 ],[
                 InlineKeyboardButton(
-                        "╞. 𝐒𝐨𝐮𝐫𝐜𝐞 .╡", url=f"https://t.me/yy8gg"),
+                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
                 ]
             ]
         ),
@@ -153,13 +153,13 @@ async def khalid(client: Client, message: Message):
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/1c167f98ec87794b4af2c.jpg",
-        caption=f"""[𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙩𝙝𝙚 𝘿𝙧𝙖𝙜𝙤𝙣 𝙎𝙤𝙪𝙧𝙘𝙚 ](https://t.me/yy8gg)\n\n[𝙎𝙊𝙐𝙍𝘾𝙀 𝙊𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/yy8gg)\n\n[𝙁𝘼𝙎𝙏 𝙎𝙊𝙐𝙍𝘾𝙀 𝙄𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈](https://t.me/yy8gg)\n\n[𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 𝙎𝙊𝙐𝙍𝘾𝙀 ](https://t.me/ku_kx)""",
+        photo=f"https://telegra.ph/file/af9cd8ee877f49866a66d.jpg",
+        caption=f"""[𝑫𝒓𝒂𝒈𝒐𝒏 𝑺𝒐𝒖𝒓𝒄𝒆 𝒇𝒐𝒓 𝑺𝒆𝒓𝒗𝒊𝒄𝒆 𝑩𝒐𝒕𝒔](https://t.me/yy8gg)""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                        "╞. 𝐒𝐨𝐮𝐫𝐜𝐞 .╡", url=f"https://t.me/yy8gg"),
+                        "𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓", url=f"https://t.me/ku_kx"),
             ],[
                 InlineKeyboardButton("✚ أضفني الى مجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ]
