@@ -22,8 +22,8 @@ LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
 PLAY_COMMAND : ["/play", "/vplay", "/cplay", "/cvplay", "/playforce", "/vplayforce", "/cplayforce", "/cvplayforce", "شغل" ,"تشغيل"]
-PLAYMODE_COMMAND : ["playmode"]
-CHANNELPLAY_COMMAND : ["channelplay"]
+PLAYMODE_COMMAND : ["/playmode"]
+CHANNELPLAY_COMMAND : ["/channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
 
 #Playlists Command
