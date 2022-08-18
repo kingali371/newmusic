@@ -12,7 +12,6 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from strings.filters import command
 from YukkiMusic import app
 from YukkiMusic.utils.database import set_cmode
 from YukkiMusic.utils.decorators.admins import AdminActual
@@ -22,7 +21,7 @@ CHANNELPLAY_COMMAND = get_command("CHANNELPLAY_COMMAND")
 
 
 @app.on_message(
-    command(CHANNELPLAY_COMMAND)
+    filters.command(CHANNELPLAY_COMMAND)
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
