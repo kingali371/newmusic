@@ -12,6 +12,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
 from strings import get_command
+from strings.filters import command
 from YukkiMusic import app
 from YukkiMusic.utils.database import (get_playmode, get_playtype,
                                        is_nonadmin_chat)
@@ -23,7 +24,7 @@ PLAYMODE_COMMAND = get_command("PLAYMODE_COMMAND")
 
 
 @app.on_message(
-    filters.command(PLAYMODE_COMMAND)
+    command(PLAYMODE_COMMAND)
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
