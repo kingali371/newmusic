@@ -24,8 +24,8 @@ def start_pannel(_):
             ),
             InlineKeyboardButton(
                 text=_["S_B_2"], callback_data="settings_helper"
-            ),
-        ],
+            )
+        ]
     ]
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
