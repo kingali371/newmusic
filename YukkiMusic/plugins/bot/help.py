@@ -15,7 +15,6 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
 from strings import get_command, get_string, helpers
-from strings.filters import command
 from YukkiMusic import app
 from YukkiMusic.misc import SUDOERS
 from YukkiMusic.utils import help_pannel
@@ -30,7 +29,7 @@ HELP_COMMAND = get_command("HELP_COMMAND")
 
 
 @app.on_message(
-    command(HELP_COMMAND)
+    filters.command(HELP_COMMAND)
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
