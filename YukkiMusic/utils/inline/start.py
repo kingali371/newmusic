@@ -37,7 +37,7 @@ def start_pannel(_):
                     text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
                 ),
             ],
-        ]
+        )
     if DRAGON_HELP:
         buttons.append(
             [
