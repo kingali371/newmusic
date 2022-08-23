@@ -43,7 +43,7 @@ def start_pannel(_):
             [
                 inlinekeyboardButton(
                     text=_["S_B_15"],
-                    url=f"https://t.me/YY8GG/119",
+                    url=f"https://t.me/YY8GG/119"
                 ),
             ]
         )                         
