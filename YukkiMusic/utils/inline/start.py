@@ -37,7 +37,7 @@ def start_pannel(_):
                     text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
                 ),
                 InlineKeyboardButton(
-                    text=_["DRAGON_HELP"], 
+                    text=_["S_B_9"], 
                     url=f"https://t.me/YY8GG/119",
                 ),
             ]
