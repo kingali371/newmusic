@@ -73,7 +73,7 @@ async def helper_private(
 
 
 @app.on_message(
-    command(HELP_COMMAND)
+    filters.command(HELP_COMMAND)
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
