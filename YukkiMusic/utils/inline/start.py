@@ -45,9 +45,8 @@ def start_pannel(_):
                     text=_["S_B_15"],
                     url=f"https://t.me/YY8GG/119",
                 ),
-            ],
-        ]
-                               
+            ]
+        )                         
     else:
         if SUPPORT_CHANNEL:
             buttons.append(
