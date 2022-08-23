@@ -36,12 +36,18 @@ def start_pannel(_):
                 InlineKeyboardButton(
                     text=_["S_B_3"], url=f"{SUPPORT_GROUP}"
                 ),
-                InlineKeyboardButton(
-                    text=_["S_B_9"], 
+            ],
+        ]
+    if DRAGON_HELP:
+        buttons.append(
+            [
+                inlinekeyboardButton(
+                    text=_["S_B_15"),
                     url=f"https://t.me/YY8GG/119",
                 ),
-            ]
-        )
+            ],
+        ]
+                               
     else:
         if SUPPORT_CHANNEL:
             buttons.append(
