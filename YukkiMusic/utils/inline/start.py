@@ -42,7 +42,7 @@ def start_pannel(_):
         buttons.append(
             [
                 inlinekeyboardButton(
-                    text=_["S_B_15"),
+                    text=_["S_B_15"],
                     url=f"https://t.me/YY8GG/119",
                 ),
             ],
