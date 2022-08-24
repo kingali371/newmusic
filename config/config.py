@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "8964162"))
-API_HASH = getenv("API_HASH", "57fd71da68029890610ade3b62017472")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5429197241:AAHkuQW3VQv1AfvphWxyBDI2nNF2qkOuU6E")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://dragon:t.me.yy8gg@dragon.7v7baed.mongodb.net/dragon?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "http://mongodb.net/alhajji?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001646005687"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ")
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music Yafa")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5297963487").split())
+    map(int, getenv("OWNER_ID", "").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -53,10 +53,10 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-# For customized or modified Repository
+# For customized or modified Repository # لا تقم بتغيير شيء للحصول على التحديثات
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/dragon-ka/medo",
+    "https://github.com/dragon-ka/AhmedQa",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -99,7 +99,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 # Time sleep duration For Telegram Downloader
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
-# Your Github Repo.. Will be shown on /start Command
+# Your Github Repo.. Will be shown on /start Command زر كيفية الاستخدام لا تغيره 
 GITHUB_REPO = getenv("GITHUB_REPO", "https://telegra.ph/Photos-By-𝗔𝗵𝗺𝗲𝗱-𝗤𝗮-08-24-5")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AQAx-R1WFWLfBgjXn5V3kNDLVyOuUD4GSqIwLW8WrYEKpN4GN0_XfOO5wACjrgpAJBEXX764eCySprfoXOrujGZr8-iE7-jPzYOZMmAmiGJyYiLMJfq6mf6oUAT1M_97sxPk6GviqIGEA_STmToenJrFLe-KYZcdTPPBdKzl8Qzpd-wXQk5lGrLVh_ZbdfjouvZtdDKKwGQ-kW6gnhatVdO9GHOMPTpvFCmT4O-_YpsBJ4WjeVLhYiPRIyjCpmt_LI94EQ-25B36VQEmIo9tVto_QCmguaN0KBiQDfydaEDrBk7vbz2Pbb7JBj-4MLoKSHfULwYJlbnolkW-kxsniS0cAAAAAUevEOAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -164,8 +164,8 @@ clean = {}
 autoclean = []
 
 
-# Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/efd9132bfe68492173df5.jpg")
+# Images رابط صورة رسالة ستارت
+START_IMG_URL = getenv("START_IMG_URL", "")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
