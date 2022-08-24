@@ -65,7 +65,7 @@ class Userbot(Client):
             assistants.append(1)
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, "Assistant Started"
+                    config.LOG_GROUP_ID, "تم تنصيب سورس دراكون بنجاح"
                 )
             except:
                 LOGGER(__name__).error(
