@@ -37,7 +37,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "")
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
@@ -165,7 +165,7 @@ autoclean = []
 
 
 # Images رابط صورة رسالة ستارت
-START_IMG_URL = getenv("START_IMG_URL", "")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e81daa5ce955a0b822e95.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
