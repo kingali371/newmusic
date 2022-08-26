@@ -1,7 +1,7 @@
 {
-    "name": "Dragon Music",
+    "name": "Telegram Team",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/1c167f98ec87794b4af2c.jpg",
+    "logo": "https://telegra.ph/file/9c2911e2cfb146d9dbd19.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -49,7 +49,7 @@
         "required": false
       },
       "START_IMG_URL": {
-        "description": "رابط صورة التسارت @tlgraphmeda5bot",
+        "description": "رابط صورة الستارت",
         "value": "",
         "required": false
       },
@@ -69,7 +69,7 @@
         "required": true
       },
       "STRING_SESSION": {
-        "description": "كود بايروجرام @drag46bot",
+        "description": "كود بايروجرام @yukkifourbot",
         "value": "",
         "required": true
       },
@@ -79,8 +79,8 @@
         "required": true
       },
       "UPSTREAM_REPO": {
-        "description": "رابط الريبو الخاص فيك",
-        "value": "https://github.com/alhajji",
+        "description": "رابط مستودع الجيت هب الخاص فيك",
+        "value": "https://github.com/saskybo",
         "required": true
       },
       "UPSTREAM_BRANCH": {
