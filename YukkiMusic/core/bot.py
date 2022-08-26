@@ -50,4 +50,4 @@ class YukkiBot(Client):
             self.name = get_me.first_name + " " + get_me.last_name
         else:
             self.name = get_me.first_name
-        LOGGER(__name__).info(f"لقد تم التشغيل بنجاح {self.name}")
+        LOGGER(__name__).info(f"لقد تم التشغيل البوت بنجاح {self.name}")
