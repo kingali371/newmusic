@@ -65,11 +65,11 @@ class Userbot(Client):
             assistants.append(1)
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, "تم تنصيب سورس دراكون بنجاح"
+                    config.LOG_GROUP_ID, "تم تنصيب السورس بنجاح"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"فشل حساب المساعد 1 في الوصول إلى مجموعة السجل. تأكد من إضافة مساعدك إلى مجموعة السجل الخاصة بك وترقيتك كمسؤول! "
                 )
                 sys.exit()
             get_me = await self.one.get_me()
@@ -83,7 +83,7 @@ class Userbot(Client):
             else:
                 self.one.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Started as {self.one.name}"
+                f"تم تشغيل المساعد بنجاح {self.one.name}"
             )
         if config.STRING2:
             await self.two.start()
