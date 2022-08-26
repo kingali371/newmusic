@@ -43,7 +43,7 @@ UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
 PAUSE_COMMAND : ["pause", "cpause"]
 RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["/mute", "/cmute", "كتم" ,"وقف"]
+MUTE_COMMAND : ["/mute", "/cmute", "ايقاف" ,"وقف"]
 UNMUTE_COMMAND : ["/unmute", "/cunmute", "كمل" ,"استئناف"]
 STOP_COMMAND : ["/stop", "/end", "/cstop", "/cend", "انهاء" ,"اطفاء"]
 SKIP_COMMAND : ["/skip", "/cskip", "تخطي"]
@@ -85,8 +85,8 @@ VARS_COMMAND : ["vars", "config"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update"]
-REBOOT_COMMAND : ["reboot"]
+UPDATE_COMMAND : ["update", "تحديث"]
+REBOOT_COMMAND : ["reboot", "اعاده تشغيل"]
 AUTOEND_COMMAND : ["autoend"]
 
 #Private Bot Mode
@@ -95,7 +95,7 @@ UNAUTHORIZE_COMMAND : ["unauthorize"]
 AUTHORIZED_COMMAND : ["authorized"]
 
 #Block Users Command
-BLOCK_COMMAND : ["/block", "حظر"]
+BLOCK_COMMAND : ["/block", "بلوك"]
 UNBLOCK_COMMAND : ["/unblock", "سماح"]
 BLOCKED_COMMAND : ["/blockedusers", "المحظورين"]
 
@@ -107,6 +107,6 @@ ACTIVEVC_COMMAND : ["activevoice"]
 ACTIVEVIDEO_COMMAND : ["activevideo"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban"]
-UNGBAN_COMMAND : ["ungban"]
-GBANNED_COMMAND : ["gbannedusers"]
+GBAN_COMMAND : ["gban", "حظر عام"]
+UNGBAN_COMMAND : ["ungban", "الغاء العام"]
+GBANNED_COMMAND : ["gbanneduser", "قائمة العام"]
