@@ -69,7 +69,7 @@ async def khalid(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/vvvvsin"),
                 ],
             ]
         ),
@@ -89,7 +89,7 @@ async def khalid(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/vvvvsin"),
                 ],
             ]
         ),
@@ -119,7 +119,7 @@ async def khalid(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/vvvvsin"),
                 ],
             ]
         ),
@@ -132,15 +132,15 @@ async def khalid(client: Client, message: Message):
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/af9cd8ee877f49866a66d.jpg",
-        caption=f"""𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒕𝒉𝒆 𝑫𝒓𝒂𝒈𝒐𝒏 𝑺𝒐𝒖𝒓𝒄𝒆""",
+        photo=f"https://telegra.ph/file/250576b6d155b1e74456c.jpg",
+        caption=f"""𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒕𝒉𝒆 𝑺𝒐𝒖𝒓𝒄𝒆""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton("𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓", url=f"https://t.me/ku_kx"),
+                InlineKeyboardButton("مطور السورس", url=f"https://t.me/ahmadslom"),
                 ],[
                 InlineKeyboardButton(
-                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/yy8gg"),
+                        "𝑺𝒐𝒖𝒓𝒄𝒆", url=f"https://t.me/vvvvsin"),
                 ]
             ]
         ),
@@ -153,13 +153,13 @@ async def khalid(client: Client, message: Message):
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/af9cd8ee877f49866a66d.jpg",
-        caption=f"""[𝑫𝒓𝒂𝒈𝒐𝒏 𝑺𝒐𝒖𝒓𝒄𝒆 𝒇𝒐𝒓 𝑺𝒆𝒓𝒗𝒊𝒄𝒆 𝑩𝒐𝒕𝒔](https://t.me/yy8gg)""",
+        photo=f"https://telegra.ph/file/250576b6d155b1e74456c.jpg",
+        caption=f"""[𝑺𝒐𝒖𝒓𝒄𝒆 𝒇𝒐𝒓 𝑺𝒆𝒓𝒗𝒊𝒄𝒆 𝑩𝒐𝒕𝒔](https://t.me/vvvvsin)""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                        "𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓", url=f"https://t.me/ku_kx"),
+                        "مطور السورس", url=f"https://t.me/vvvvsin"),
             ],[
                 InlineKeyboardButton("✚ أضفني الى مجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ]
