@@ -147,14 +147,14 @@ class TeleAPI:
                     completed_size = convert_bytes(current)
                     speed = convert_bytes(speed)
                     text = f"""
-**{MUSIC_BOT_NAME} Telegram Media Downloader**
+**{MUSIC_BOT_NAME} برنامج تنزيل وسائط التليغرام**
 
-**Total FileSize:** {total_size}
-**Completed:** {completed_size} 
-**Percentage:** {percentage[:5]}%
+**إجمالي حجم الملف:** {total_size}
+**مكتمل:** {completed_size} 
+**نسبة مئوية:** {percentage[:5]}%
 
-**Speed:** {speed}/s
-**ETA:** {eta}"""
+**سرعة التحميل:** {speed}/s
+**اونلاين:** {eta}"""
                     try:
                         await mystic.edit_text(text, reply_markup=upl)
                     except:
@@ -173,7 +173,7 @@ class TeleAPI:
                     progress=progress,
                 )
                 await mystic.edit_text(
-                    "Successfully Downloaded.. Processing file now"
+                    "تم التنزيل بنجاح .. معالجة الملف الآن"
                 )
                 downloader.pop(message.message_id)
             except:
