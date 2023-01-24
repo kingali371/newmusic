@@ -65,11 +65,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/vvvvsin"
-)  # Example:- https://t.me/vvvvsin
+    "SUPPORT_CHANNEL", "https://t.me/gg2003a"
+)  # Example:- https://t.me/gg2003a
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/devmusi"
-)  # Example:- https://t.me/devmusi
+    "SUPPORT_GROUP", "https://t.me/kingdom12a"
+)  # Example:- https://t.me/kingdom12a
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -100,7 +100,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://telegra.ph/bot-commands-08-26-7")
+GITHUB_REPO = getenv("GITHUB_REPO", None")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BACrCk_NMU21g8OgZNZf-tiDJwc2NFWRWThoi49_RkHAQIi214zHvcr_C-pvCXMR0u6mv_4u_zto22ES1CAWAn5bY5mi1SNX_kjJg2L-KNNH9wm-r9uiUnKGpcLrd0_ZapLl1dvkWiVwBg71Qh1MuDuVM3AKEmc_nqQL17M6CmKHSFoc6CrahdtipeV3LTcrSGD0QIlH8Ese8-WJai-aszDtlz6ieLm1biEffv_8IMup_8mcISYRVMSlcQ3q-Upj4dqd5CUCi0rHCvRjr2jIw7ClraCR8AG0kT2XcPj9H4hESEis3dslX9489gs2xWu-pZYpRcIyV6mgiktIyIDv5poQeXmNbgA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -165,7 +165,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e81daa5ce955a0b822e95.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/42843dbf73fd3a42786a4.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
